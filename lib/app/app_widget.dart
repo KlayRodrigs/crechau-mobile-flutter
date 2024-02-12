@@ -1,4 +1,4 @@
-import 'package:crechau_mobile/app/pages/homepage.dart';
+import 'package:crechau_mobile/app/pages/splashspage.dart';
 import 'package:flutter/material.dart';
 
 class AppWidget extends StatelessWidget {
@@ -11,7 +11,7 @@ class AppWidget extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const HomePage(),
+      home: const Splashpage(),
     );
   }
 }
